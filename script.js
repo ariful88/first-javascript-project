@@ -107,7 +107,7 @@ function storeTaskInLocalStorage(task){
 
 }
 
-
+//get task from local storage
 
 function getTask(){
 
@@ -135,6 +135,8 @@ function getTask(){
     });
 }
 
+
+//item remove from local storage
 
 function removeFromLS (taskItem){
 
